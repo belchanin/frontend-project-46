@@ -11,3 +11,6 @@ https://asciinema.org/a/GykS3aMTwRfQnUd5RVnOsjSXV
 
 ## YAML формат
 https://asciinema.org/a/m58HELNS2ErWR6rJvd1bz8E1S
+
+## Nested objects
+https://asciinema.org/a/6xHviPkOKRpp8Kmpcx1iDh9P5
