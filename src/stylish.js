@@ -19,15 +19,16 @@ const stylish = (tree) => {
     };
 
     const result = node.map((obj) => {
+      const value = `${obj.name}: ${iterIfNested(obj.value)}`;
       if (obj.status === 'added') {
-        return `${currentLittleIndent}+ ${obj.name}: ${iterIfNested(obj.value)}`;
+        return `${currentLittleIndent}+ ${value}`;
       }
       if (obj.status === 'deleted') {
-        return `${currentLittleIndent}- ${obj.name}: ${iterIfNested(obj.value)}`;
+        return `${currentLittleIndent}- ${value}`;
       }
 
       if (obj.status === 'unchanged') {
-        return `${currentIndent}${obj.name}: ${iterIfNested(obj.value)}`;
+        return `${currentIndent}${value}`;
       }
 
       if (obj.status === 'modified') {
