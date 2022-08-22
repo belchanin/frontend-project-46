@@ -10,8 +10,8 @@
 
 ### Как пользоваться
 1. Склонируйте репозиторий `git clone https://github.com/belchanin/frontend-project-46`
-2. Для сборки проекта введите make install
-3. Для запуска введите gendiff <путь до первого файла> <путь до второго файла> --format [stylish/plain/json]
+2. Для сборки проекта введите `make install`
+3. Для запуска введите `gendiff <путь до первого файла> <путь до второго файла> --format [stylish/plain/json]`
 
 ### Пример работы программы
 ## JSON формат
