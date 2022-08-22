@@ -1,10 +1,7 @@
-import { test, expect, beforeEach } from '@jest/globals';
+import { test, expect } from '@jest/globals';
 import fs from 'fs';
 import path from 'path';
 import parseFile from '../src/parser.js';
-
-let file1 = '';
-let file2 = '';
 
 const expected = {
   common: {
@@ -33,22 +30,20 @@ const expected = {
   },
 };
 
-beforeEach(() => {
-  file1 = fs.readFileSync(path.resolve(process.cwd(), '__fixtures__/nested1.json'), 'utf-8');
-  file2 = fs.readFileSync(path.resolve(process.cwd(), '__fixtures__/nested1.yml'), 'utf-8');
-});
-
 test('json file', () => {
+  const file1 = fs.readFileSync(path.resolve(process.cwd(), '__fixtures__/nested1.json'), 'utf-8');
   const actual = parseFile(file1, '.json');
   expect(actual).toEqual(expected);
 });
 
 test('yaml file', () => {
+  const file2 = fs.readFileSync(path.resolve(process.cwd(), '__fixtures__/nested1.yml'), 'utf-8');
   const actual = parseFile(file2, '.yml');
   expect(actual).toEqual(expected);
 });
 
 test('another format', () => {
+  const file1 = fs.readFileSync(path.resolve(process.cwd(), '__fixtures__/nested1.json'), 'utf-8');
   const actual = parseFile(file1, 'asn');
   expect(actual).toEqual({});
 });
