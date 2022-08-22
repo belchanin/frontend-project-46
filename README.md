@@ -5,6 +5,14 @@
 <a href="https://codeclimate.com/github/belchanin/frontend-project-46/maintainability"><img src="https://api.codeclimate.com/v1/badges/b16dec8849a0a90ef8a5/maintainability" /></a>
 <a href="https://codeclimate.com/github/belchanin/frontend-project-46/test_coverage"><img src="https://api.codeclimate.com/v1/badges/b16dec8849a0a90ef8a5/test_coverage" /></a>
 
+### Описание
+Программа сравнивает 2 файла форматов .json или .yaml и отображает различия между ними
+
+### Как пользоваться
+1. Склонируйте репозиторий `git clone https://github.com/belchanin/frontend-project-lvl1`
+2. Для сборки проекта введите make install
+3. Для запуска введите gendiff <путь до первого файла> <путь до второго файла> --format [stylish/plain/json]
+
 ### Пример работы программы
 ## JSON формат
 https://asciinema.org/a/GykS3aMTwRfQnUd5RVnOsjSXV
