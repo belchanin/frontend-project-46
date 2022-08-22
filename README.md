@@ -17,3 +17,6 @@ https://asciinema.org/a/6xHviPkOKRpp8Kmpcx1iDh9P5
 
 ## Choose stylish or plain format
 https://asciinema.org/a/2TSyT2ZrkImYI11uBlmtZl98T
+
+## Or you may choose json format
+https://asciinema.org/a/EklkodWJbMSgxl7fXSAsmPXlL
