@@ -14,3 +14,6 @@ https://asciinema.org/a/m58HELNS2ErWR6rJvd1bz8E1S
 
 ## Nested objects
 https://asciinema.org/a/6xHviPkOKRpp8Kmpcx1iDh9P5
+
+## Choose stylish or plain format
+https://asciinema.org/a/2TSyT2ZrkImYI11uBlmtZl98T
