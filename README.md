@@ -9,7 +9,7 @@
 Программа сравнивает 2 файла форматов .json или .yaml и отображает различия между ними
 
 ### Как пользоваться
-1. Склонируйте репозиторий `git clone https://github.com/belchanin/frontend-project-lvl1`
+1. Склонируйте репозиторий `git clone https://github.com/belchanin/frontend-project-46`
 2. Для сборки проекта введите make install
 3. Для запуска введите gendiff <путь до первого файла> <путь до второго файла> --format [stylish/plain/json]
 
